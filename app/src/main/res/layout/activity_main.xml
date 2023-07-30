@@ -9,6 +9,15 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="429dp"
+        android:layout_height="387dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
         android:id="@+id/openMenu"
         android:layout_width="29dp"
         android:layout_height="24dp"
@@ -113,27 +122,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shopping_bag_1" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="542dp"
-        android:layout_height="627dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="144dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/img" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="140dp"
         android:text="~New month , new purchase, free delivery!"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,13 +139,13 @@
         android:id="@+id/textView3"
         android:layout_width="163dp"
         android:layout_height="111dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="184dp"
         android:text="Find your best Cube"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -155,12 +153,12 @@
         android:id="@+id/button"
         android:layout_width="162dp"
         android:layout_height="46dp"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="308dp"
         android:text="Buy Now"
         android:textStyle="bold"
         app:backgroundTint="#04F06A"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -184,8 +182,7 @@
         android:layout_width="26dp"
         android:layout_height="22dp"
         android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="320dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shopingcart" />
