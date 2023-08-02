@@ -212,9 +212,9 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="43dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="656dp"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="660dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
@@ -234,22 +234,22 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="49dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="656dp"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="660dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aboutus_icon" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="53dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="644dp"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="656dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintHorizontal_bias="0.67"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/contact_icon" />
