@@ -131,14 +131,14 @@
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="163dp"
-        android:layout_height="111dp"
+        android:layout_width="188dp"
+        android:layout_height="86dp"
         android:layout_marginTop="184dp"
         android:text="Find your best Cube"
         android:textColor="#FFFFFF"
@@ -202,57 +202,68 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="401dp"
-        android:layout_height="99dp"
-        android:layout_marginTop="628dp"
+        android:layout_width="375dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="648dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bottm_nav" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="42dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="660dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home_icon" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="40dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="656dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cubes_store_icon" />
-
-    <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="42dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="660dp"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="680dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aboutus_icon" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="46dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="656dp"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="672dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/contact_icon" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="36dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="680dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_icon" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="32dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="680dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cubes_store_icon" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="33dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="676dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shopping_bag_1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
