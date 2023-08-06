@@ -237,7 +237,7 @@
         android:id="@+id/imageView11"
         android:layout_width="36dp"
         android:layout_height="29dp"
-        android:layout_marginTop="680dp"
+        android:layout_marginTop="684dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
@@ -264,6 +264,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shopping_bag_1" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="191dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="456dp"></LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
